@@ -1,0 +1,100 @@
+.stack-cart-box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(141, 153, 174);
+}
+.stack-header-outer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.stack-header-outer p{
+    margin-top: 15px;
+}
+.clear-btn{
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 12px;
+    background-color: white;
+    color: rgb(4, 4, 4);
+    border:5px rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
+.clear-btn:hover{
+    background-color: rgb(216, 0, 50); 
+    color: white; 
+}
+.stack-item-outer{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius:20px 20px 0px 0px;
+}
+.stack-items{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(237, 242, 244);
+    border-radius:20px 20px 0px 0px;
+}
+.stack-price-outer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(237, 242, 244);
+    /* background-color: rgb(141, 153, 174); */
+    /* background-color: white; */
+}
+.stack-price{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(141, 153, 174);
+    border-radius:20px 20px 0px 0px;
+}
+.stack-price p{
+    padding-top: 15px;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+.stack-button-outer{
+    width: 100%;
+    height: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(141, 153, 174);
+}
+.stack-button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.stack-button button{
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 12px;
+    background-color: rgb(216, 0, 50);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition-duration: 0.4s;
+}
+.stack-button button:hover{
+    background-color: #000000; 
+    color: white;
+}

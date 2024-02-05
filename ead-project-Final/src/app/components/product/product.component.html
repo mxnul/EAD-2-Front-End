@@ -1,0 +1,29 @@
+<div>
+	<table>
+		<thead>
+			<tr>
+				<th> ID</th>
+				<th> Name</th>
+				<th> Price</th>
+                <th> Description </th>
+                <th>Update</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let product of products">
+				<td>{{product.id}}</td>
+				<td>{{product.productName}}</td>
+				<td>{{product.productPrice}} </td>
+				<td>{{product.productDetails}}</td>
+				<td><button type="submit" class="btn btn-warning" (click)="updateProduct(product)">Update</button></td>
+				<td><button type="submit" class="btn btn-danger" (click)="deleteProduct(product)">Delete</button></td>
+                
+			</tr>
+		</tbody>
+	</table>
+	<div class="space">
+		
+	</div>
+</div>
+

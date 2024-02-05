@@ -1,0 +1,26 @@
+<div>
+	<table>
+		<thead>
+			<tr>
+				<th>Order ID</th>
+				<th>Name</th>
+				<th>Contact No</th> 
+				<th>Address</th>
+                <th>Product Name</th>
+				<th>Total Price</th>
+				<th>Update</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let order of orders">
+				<td>{{order.orderNo}}</td>
+				<td>{{order.customerName}}</td>
+				<td>{{order.customerContactNo}}</td>
+				<td>{{order.customerAddress}}</td>
+				<td>{{order.productName}}</td>
+				<td>{{order.totalPrice}}</td>
+				<td><button type="submit" class="btn btn-danger" (click)="deleteOrder(order)">Delete</button></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
